@@ -1,2 +1,13 @@
-git --version = to check the version of git
-
+git --version 
+git status - displays the status of the repository
+git clone - creates a copy of an existing Git repository
+git init - initializes a new Git repository in the current directory
+git add filename - adds files to the staging area to be included in the next commit
+git commit -m "text" - creates a new commit with the files in the staging area
+git log - displays a list of commits in reverse chronological order
+git pull --rebase origin master - fetches changes from a remote repository and merges them into the current branch
+git push -u origin master - sends changes to a remote repository
+git branch - lists all branches in the repository
+git checkout/switch branchname - switches to a different branch or commit
+git diff - shows the differences between files in the repository
+git merge filename - merges changes from one branch into another
